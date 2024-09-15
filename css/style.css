@@ -1,0 +1,58 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+header {
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1000;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 33px 9%;
+	background: #00000055;
+	backdrop-filter: blur(5px);
+}
+
+.logo {
+	font-family: "Gochi Hand", cursive;
+	font-size: 30px;
+	font-weight: 700;
+	color: white;
+}
+
+.navlist {
+	display: flex;
+}
+
+.navlist a {
+	color: white;
+	margin-left: 60px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	border-bottom: 2px solid transparent;
+	transition: all .55s ease;
+}
+
+.navlist a:hover {
+	border-bottom: 2px solid white;
+}
+
+.section1 video {
+	top: -200px;
+    width: 100%;
+    height: auto;
+	size: cover;
+	min-height: 100vh;
+}
